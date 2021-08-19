@@ -1,3 +1,4 @@
+// get id 
 function getid() {
     if (Cookies.get('id')) {
         document.getElementById('id').value = Cookies.get('id')
