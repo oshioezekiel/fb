@@ -2,7 +2,7 @@ const mongoose = require("mongoose")
 require('dotenv').config()
 
 // connection to mongoose
-mongoose.connect(`mongodb+srv://${process.env.DBURIPASS}-7ayur.mongodb.net/socialHACK?retryWrites=true&w=majority`, {
+mongoose.connect(`mongodb+srv://admin:${process.env.PASSWORD}@cluster0.x73rh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`, {
         useNewUrlParser: true,
         useNewUrlParser: true,
         useUnifiedTopology: true,
